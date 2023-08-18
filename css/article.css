@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.article {
+max-width: 500px;
+padding: 40px;
+box-shadow: 5px;
+outline: auto gray;
+box-shadow: 25px -37px 99px 14px #a9a9a980 inset;
+background-color: white;
+margin: 20px auto;
+}
+
+.article__title {
+    font-size: 20px;
+}

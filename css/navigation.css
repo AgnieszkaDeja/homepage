@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.navigation {
+background-color: white;
+max-width: 600px;
+margin: 20px auto;
+outline: auto gray;
+box-shadow: 0px 0px 50px -25px #929292 inset;
+}
+
+.navigation__list {
+    list-style-type: none;
+    padding: 10px;
+    font-weight: bold;
+    outline: auto gray;
+}
+
+.navigation__item {
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 50px -25px #929292 inset;
+}
+
+
+.navigation__link {
+    color: black;
+    text-decoration: none;
+}
+
+.navigation__link:visited {
+    color: darkgrey
+}
+
+.navigation__link:focus {
+    outline: 1px dotted black
+}
+
+.navigation__link:hover {
+    outline: 1px dotted black;
+}
+
+.navigation__link:active {
+    color: red;
+}

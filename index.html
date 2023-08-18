@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>AL.Deja</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="basic">
+    <header class="heading"><h1>Agnieszka Łucja Deja</h1></header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a class="navigation__link" href="#kto">Kim jestem?</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#co">Co robię?</a></li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#edi">Poznaj Edka</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <div class="picture"></div>
+            <p>
+                <button class="button js-button">pokaż <span class="themeName">Edka</span></button>
+            </p>
+            <article class="article element">
+                <h2 class="article__title" id="#kto">Kilka słów o mnie</h2>
+                <p>Jestem lingwistką, <em>podróżniczką</em>, milośniczką psów oraz włoskiej kuchni.
+                <p>Jestem lingwistką, <em>podróżniczką</em>, milośniczką psów oraz włoskiej kuchni.
+                    <br>Lubie poznawać nowe miejsca oraz uczyć się
+                    języków obcych.
+                </p>
+            </article>
+            <article class="article element">
+                <h2 class="article__title" id="co">Obecnie</h2>
+                <p>Mieszkam w Szwecji z moją osobistą kluską <i><b>Edkiem*</b></i> i cieszę się piękną naturą.
+                    <br>
+                    <strong>Pracuję ucząc języka włoskiego.</strong>
+                    <br>
+                    Uczę się języka szwedzkiego oraz sprawdzam czy pochłonie mnie kodowanie.
+                </p>
+            </article>
+        </section>
+        <aside>
+            <hr class="line">
+            <article class="note">*Edek - pies kluskokształnty</article>
+            <article>
+                <table id="edi" class="table">
+                    <caption class="table__caption table__cell">Co lubi Edek:</caption>
+                    <thead>
+                        <tr>
+                            <th class="table__cell table__header" scope="col">Aktywność</th>
+                            <th class="table__cell table__header" scope="col">Jak?</th>
+                            <th class="table__cell table__header" scope="col">Ile?</th>
+                            <th class="table__cell table__header" scope="col">Kiedy?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="table__cell table__header" scope="row">Jeść</th>
+                            <td class="table__cell">powoli</td>
+                            <td class="table__cell">dużo</td>
+                            <td class="table__cell">zawsze</td>
+                        <tr>
+                            <th class="table__cell table__header" scope="row">Spać</th>
+                            <td class="table__cell">wszędzie</td>
+                            <td class="table__cell">długo</td>
+                            <td class="table__cell">wciąż</td>
+                        </tr>
+                        <tr>
+                            <th class="table__cell table__header" scope="row">Bawić się</th>
+                            <td class="table__cell">w towarzystwie</td>
+                            <td class="table__cell" rowspan="2">krótko</td>
+                            <td class="table__cell">czasami</td>
+                        </tr>
+                        <tr>
+                            <th class="table__cell table__header" scope="row">Trenować</th>
+                            <td class="table__cell">statycznie</td>
+                            <td class="table__cell">rzadko</td>
+                        </tr>
+                    </tbody>
+                    <tfoot class="tfoot">
+                        <tr>
+                            <td colspan="4">*Opracowano na podstawie wieloletniej obserwacji.</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </article>
+        </aside>
+    </main>
+    <footer class="foot"> 2022/2023 frontend developer course </footer>
+</body>
+
+</html>

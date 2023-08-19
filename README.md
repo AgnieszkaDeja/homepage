@@ -6,8 +6,7 @@ My first page created with professional tools
 ## Take a closer look
 Get to know me better by checking [my first page](https://agnieszkadeja.github.io/homepage/)
 
-<a href='https://postimg.cc/YhSpTgJ2' target='_blank'><img src='https://i.postimg.cc/YhSpTgJ2/Agnieszka-Deja.jpg' border='0' alt='Agnieszka-Deja'/></a>
-
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGdpYWgyaXN2dGxiMGtkengxdXNqNTQwOTRlZ2VtY2g4Yng5aWNyNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OeiXwiUkIGd7MXBkR4/giphy.gif)
 ## Used echnologies
 - HTML
 - CSS (BEM convention, Normalize.css)

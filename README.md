@@ -13,4 +13,4 @@ Get to know me better by checking [my first page](https://agnieszkadeja.github.i
 - HTML
 - CSS (BEM convention, Normalize.css)
 - Javascript
-- ES6+ features
+

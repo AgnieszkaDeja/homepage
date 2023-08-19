@@ -1,7 +1,7 @@
 # Author - Agnieszka Deja
 My first page created with professional tools
 
-*The site is still being improved along with my progress in the ***frontend developer from scratch*** course*
+*The site is still being improved along with my progress in the ***Frontend Developer from scratch*** course*
 
 ![welcome](https://github.com/AgnieszkaDeja/homepage/blob/main/images/share.png?raw=true)
 

@@ -1,11 +1,21 @@
-console.log("Ciao!")
+{
+    const welcome = () => {
+        console.log("Hi! Hope you like it here!");
+    };
 
-let buttonElement = document.querySelector(".js-button");
-let div = document.querySelector(".picture");
-let themeName = document.querySelector(".themeName");
+    const toggleImage = () => {
+        const div = document.querySelector(".picture");
+        const themeName = document.querySelector(".themeName");
+        div.classList.toggle("Edek");
+        themeName.innerText = div.classList.contains("Edek") ? "Agnieszkę" : "Edka";
+    };
 
-buttonElement.addEventListener("click", () => {
-    div.classList.toggle("Edek");
+    const init = () => {
+        let buttonElement = document.querySelector(".js-button");
+        buttonElement.addEventListener("click", toggleImage);
 
-    themeName.innerText = div.classList.contains("Edek") ? "Agnieszkę" : "Edka"
-});
+        welcome();
+    };
+
+    init();
+}

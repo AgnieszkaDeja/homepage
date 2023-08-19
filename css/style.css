@@ -29,7 +29,7 @@ html {
 
 .picture {
     border-color: black;
-    background-image: url("https://i.postimg.cc/Nf659kDX/Agnieszka-Deja.jpg");
+    background-image: url("..images/Agnieszka Deja.jpg");
     background-size: 140px 200px;
     width: 140px;
     height: 200px;
@@ -40,7 +40,7 @@ html {
 
 .Edek {
     border-color: black;
-    background-image: url("https://i.postimg.cc/tT7HRG7q/edek.jpg");
+    background-image: url("..images/edek.jpg");
     background-size: 200px 200px;
     width: 200px;
     height: 200px;
